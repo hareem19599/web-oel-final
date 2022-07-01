@@ -1,0 +1,63 @@
+img {
+    width: 130px;
+    height: auto;
+    border-radius: 7px;
+}
+
+.cardcontainer {
+    width: fit-content;
+    
+}
+
+.cont2 {
+    margin-top: 20px;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#btn{
+    background-color: #b3dbd8;
+    border-color: #b3dbd8;
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+
+button:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #194546;
+    text-shadow: 4px 4px 4px #a0a4a7;
+    animation: animate 2s 1s forwards;
+    opacity: 0;
+}
+
+@keyframes animate {
+    from {
+        transform: translateX(-400px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+h4,
+p {
+    margin-top: 20px;
+    font-family: 'century gothic';
+    color: #194546;
+    text-shadow: 4px 4px 4px #a0a4a7;
+}
